@@ -1,0 +1,101 @@
+.positionSticky {
+  position: sticky;
+  background-color: rgba(187, 115, 48, 0.432);
+  .point{
+    &:hover{
+      color: black;
+    }
+  }
+}
+
+.positionabsolute {
+  position: absolute;
+}
+.main-header {
+  font-family: "EB Garamond", serif;
+  // justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  color: white;
+  margin: 0px;
+  padding: 20px 0px;
+  // background-color: blanchedalmond;
+  .main-title {
+    // margin: 1% 2%;
+    margin: 0.1px;
+    font-size: 23px;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .main-points {
+    padding: 0.8vw 5vw;
+    // margin-right: 2vw;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 0px;
+    // transition-duration: 5s;
+    // transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    .icon {
+      display: none;
+    }
+    .point {
+      font-size: 1em;
+      // margin: 0px 1.4vw ;
+      cursor: pointer;
+      list-style: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+ 
+  .main-points li:not(:first-child) {
+    display: none;
+  }
+  .main-points li.icon {
+    display: block !important;
+    float: right !important;
+    position: relative;
+    bottom: 5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main-points.responsive {
+    position: relative;
+    background-color: rgba(252, 250, 250, 0.774);
+    color: black;
+    display: grid;
+    // justify-content: center;
+    // transition: all 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+    
+  }
+  .responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px 24px;
+  }
+  .responsive li:not(:last-child) {
+    float: none;
+    display: block;
+    
+    padding: 3px 0px;
+    
+    
+  }
+  .fade li:not(:last-child) {
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+    opacity: 0;
+  
+  }
+  .fade li.show {
+    opacity: 1;
+  }
+}
