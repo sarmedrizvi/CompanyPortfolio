@@ -28,7 +28,7 @@ export class Header extends React.Component {
             return 'main-points'
     }
     listenScrollEvent = e => {
-        if (window.scrollY > 86) {
+        if (window.scrollY > 300) {
           this.setState({scroll:'bottom'})
         } else {
           this.setState({scroll: 'top'})
@@ -49,7 +49,7 @@ export class Header extends React.Component {
         return (
 
             <div className={this.scrolling()}>
-                <h3 className='main-title'>Sarmed Rizvi</h3>
+                <h3 className='main-title'>Softlamp</h3>
 
                 <ul className={this.stringCheck()}>
                     <li className='point show'><a>Home</a></li>
