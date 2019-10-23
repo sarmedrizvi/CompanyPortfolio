@@ -1,0 +1,16 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+    .service-title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .service-cards{
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: center;
+        text-align: center;
+    }
+}
