@@ -1,0 +1,16 @@
+.team-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "EB Garamond", serif;
+    // padding: 2px;
+  .team-card-image {
+    height: 200px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+  }
+  .team-card-name {
+  }
+  .team-card-work {
+  }
+}

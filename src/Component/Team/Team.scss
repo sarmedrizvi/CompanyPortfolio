@@ -1,0 +1,21 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding: 23px;
+    .team-title{
+        text-align: center;
+    }
+    .team-quote{
+        width: 30em;
+        text-align: center;
+    }
+    .team-profile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+}

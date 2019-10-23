@@ -4,7 +4,7 @@
   border: 0.2px solid rgb(204, 201, 197);
   transition: all 0.3s linear;
   &:hover {
-    box-shadow: rgba(235, 228, 222, 0.432) 0px 5px 15px, inset rgba(252, 252, 252, 0.432) 0px -10px 20px;
+    box-shadow: rgb(235, 228, 222) 0px 5px 15px, inset rgb(252, 252, 252) 0px -10px 20px;
   }
   .point {
     &:hover {
