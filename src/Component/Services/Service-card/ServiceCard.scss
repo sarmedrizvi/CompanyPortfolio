@@ -4,9 +4,12 @@
     align-items: center;
     justify-content: center;
     font-family: "Teko", sans-serif;
+    margin-bottom: 10px;
     .service-card-icon{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: cover;
     text-align: center;
     // margin-bottom: 30px;
     }
@@ -16,8 +19,7 @@
     .service-card-subtitles{
         width: 250px;
         opacity: 0.6;
-        margin-bottom: 10px;
-        font-size: 1.2vw;
+        font-size: 1em;
     }
     .service-readme{
         color: darkorange;

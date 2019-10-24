@@ -11,12 +11,14 @@
     .team-quote{
         width: 80vw;
         text-align: center;
+        font-family: "Teko", sans-serif;
     }
     .team-profile{
         display: flex;
         flex-wrap: wrap;
-        // justify-content: center;
-        justify-content: space-around;
+        justify-content: center;
+        // justify-content: space-around;
         text-align: center;
+        align-items: center;
     }
 }

@@ -4,17 +4,28 @@
   flex-wrap: wrap;
   font-family: "EB Garamond", serif;
   justify-content: center;
-    // padding: 2px;
+  margin: 20px;
   .team-card-image {
     height: 200px;
-    width: 250px;
+    width: 180px;
     background-color: rgb(255, 255, 255);
+
+    .team-card-image-icons {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .icon {
+
+      }
+    }
   }
   .team-card-name {
     padding: 0px;
     margin: 0px;
   }
-  
+
   .team-card-work {
   }
 }
