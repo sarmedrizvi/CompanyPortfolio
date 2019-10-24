@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CompanyPortfolio/static/css/main.72023074.chunk.css",
+    "main.js": "/CompanyPortfolio/static/js/main.1b603b1a.chunk.js",
+    "main.js.map": "/CompanyPortfolio/static/js/main.1b603b1a.chunk.js.map",
+    "runtime-main.js": "/CompanyPortfolio/static/js/runtime-main.41495311.js",
+    "runtime-main.js.map": "/CompanyPortfolio/static/js/runtime-main.41495311.js.map",
+    "static/css/2.06565635.chunk.css": "/CompanyPortfolio/static/css/2.06565635.chunk.css",
+    "static/js/2.56a54923.chunk.js": "/CompanyPortfolio/static/js/2.56a54923.chunk.js",
+    "static/js/2.56a54923.chunk.js.map": "/CompanyPortfolio/static/js/2.56a54923.chunk.js.map",
+    "index.html": "/CompanyPortfolio/index.html",
+    "precache-manifest.c7bd7ac9fe53814e00d32ca40b26e1b3.js": "/CompanyPortfolio/precache-manifest.c7bd7ac9fe53814e00d32ca40b26e1b3.js",
+    "service-worker.js": "/CompanyPortfolio/service-worker.js",
+    "static/css/2.06565635.chunk.css.map": "/CompanyPortfolio/static/css/2.06565635.chunk.css.map",
+    "static/css/main.72023074.chunk.css.map": "/CompanyPortfolio/static/css/main.72023074.chunk.css.map",
+    "static/media/Body.scss": "/CompanyPortfolio/static/media/main-background.f71bfc5f.jpg",
+    "static/media/About.scss": "/CompanyPortfolio/static/media/softlamp-image.2a1f375c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41495311.js",
+    "static/css/2.06565635.chunk.css",
+    "static/js/2.56a54923.chunk.js",
+    "static/css/main.72023074.chunk.css",
+    "static/js/main.1b603b1a.chunk.js"
+  ]
+}
