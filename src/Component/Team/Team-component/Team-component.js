@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 export const TeamCard = ({ imgUrl, name, work }) => (
     <div className='team-card' data-aos='fade-up'>
         <img src={`https://robohash.org/${imgUrl}?set=set2&size=180x180`}  alt="pro" className='team-card-image'></img>
-        <h5 className='team-card-name' >{name}</h5>
+        <h4 className='team-card-name' >{name}</h4>
         <span className='team-card-work'>{work}</span>
     </div>
 )
