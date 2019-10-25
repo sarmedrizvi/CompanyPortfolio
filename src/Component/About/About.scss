@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   .about-title {
-    
     font-family: "EB Garamond", serif;
     font-size: 40px;
     font-weight: bolder;
@@ -11,28 +10,25 @@
   .about-objects {
     display: flex;
     flex-wrap: wrap;
-
+    // justify-content: center;
     .objects-image {
       background: url("../../assets/softlamp-image.jpg");
-    //   max-width: 400px;
-      min-width: 250px;
-      margin: 23px;
-      min-height: 150px;
-    //   max-height: 250px;
-    //   padding: 60px;
+      width: 530px;
+      height: 400px;
+      margin: 0px 10px;
       background-size: cover;
       background-position: center;
     }
     .objects-writing {
-        padding: 23px;
-        width: 500px;
-        font-family: "Teko", sans-serif;
-        
+      padding: 0px 5px;
+      width: 600px;
+      font-family: "Teko", sans-serif;
+
       .objects-title {
-          font-size: 1.3;
+        font-size: 1.3;
       }
       .objects-para {
-          font-size: 1.1em;
+        font-size: 1.1em;
       }
     }
   }

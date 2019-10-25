@@ -5,21 +5,13 @@
   font-family: "EB Garamond", serif;
   justify-content: center;
   margin: 20px;
+  overflow: hidden;
   .team-card-image {
     height: 200px;
     width: 180px;
     background-color: rgb(255, 255, 255);
 
-    .team-card-image-icons {
-      display: flex;
-      height: 100%;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      .icon {
-
-      }
-    }
+   
   }
   .team-card-name {
     padding: 0px;
@@ -28,4 +20,33 @@
 
   .team-card-work {
   }
+}
+.team-card-image-icons {
+  
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40px;
+  background-color: rgba(248, 104, 20, 0.877);
+  overflow: hidden;
+  .team-card-image-icons2{
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateX(-40px);
+  }
+  .icon {
+    cursor: pointer;
+    margin: 7px;
+  }
+}
+.unswap{
+  
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateX(-40px);
+
+}
+.swap{
+  transform: translateX(21px);
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
