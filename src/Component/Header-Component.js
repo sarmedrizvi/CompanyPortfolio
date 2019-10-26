@@ -41,7 +41,7 @@ export class Header extends React.Component {
 
       scrolling=()=>{
           if(this.state.scroll==='top')
-          return 'positionabsolute main-header'
+          return 'main-header'
           else
           return 'positionSticky main-header'
       }

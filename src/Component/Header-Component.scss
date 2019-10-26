@@ -1,5 +1,4 @@
 .positionSticky {
-  position: sticky;
   background-color: rgba(255, 253, 253, 0.973);
   border: 0.2px solid rgb(204, 201, 197);
   transition: all 0.3s linear;
@@ -7,18 +6,13 @@
     box-shadow: rgb(235, 228, 222) 0px 5px 15px, inset rgb(252, 252, 252) 0px -10px 20px;
   }
   .point {
-    &:hover {
-      // color: black;
-    }
+    color: black;
   }
-}
-
-.positionabsolute {
-  position: absolute;
 }
 .main-header {
   font-family: "EB Garamond", serif;
   // justify-content: space-between;
+  position: fixed;
   overflow: hidden;
   padding-bottom: 0px;
   width: 100%;
@@ -45,6 +39,7 @@
     display: flex;
     font-weight: bold;
     justify-content: space-between;
+    color: white;
     margin: 0px;
     // transition-duration: 5s;
     // transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);

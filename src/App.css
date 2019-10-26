@@ -6,6 +6,7 @@
 }
 .Container{
   background-color: white;
+  /* overflow: hidden; */
 }
 .App-header {
   background-color: #282c34;
