@@ -6,6 +6,7 @@ import {About} from './Component/About/About'
 import {Team} from './Component/Team/Team'
 import {Service} from './Component/Services/Service'
 import {Testimonial} from './Component/Testimonial/Testimonial'
+import 'aos/dist/aos.css';
 class App extends React.Component {
 
   render() {

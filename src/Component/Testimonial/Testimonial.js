@@ -24,14 +24,14 @@ export class Testimonial extends React.Component {
 
     render() {
         return (
-            <div className='testimonial'>
+            <div className='testimonial' data-aos='fade-up'>
                 <h1 className='testimonial-title'>TESTIMONIAL</h1>
                 <div className='testimonial-slide-show'>
                     <Slider className='slider' autoplay='2000'>
 
                         {this.state.images.map((article, index) => <div key={index} className='slide'>
-                            <h2 className='testimonial-slide-show-title' >{article.title}</h2>
-                            <span className='testimonial-slide-show-subtitle'>{article.subtitle}</span>
+                            <h2 className='testimonial-slide-show-title' data-aos='fade-down' >{article.title}</h2>
+                            <span className='testimonial-slide-show-subtitle' data-aos='fade-down'>{article.subtitle}</span>
                         </div>)}
 
                     </Slider>
