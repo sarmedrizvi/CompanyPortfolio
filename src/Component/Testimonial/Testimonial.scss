@@ -19,6 +19,7 @@
 
 }
 .slide{
+    padding-top: 9vh;
     display: flex;
     // justify-content: center;
     flex-direction: column;
@@ -29,6 +30,6 @@
     width: 78vw !important;
     text-align: center !important;
     box-shadow: #d6d0cb 0px 5px 15px, inset rgb(241, 236, 236) 0px -10px 20px;
-    margin-left: 11vw;
+    margin-left: 10vw;
     margin-bottom: 1.2em;
 }
