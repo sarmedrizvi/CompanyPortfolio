@@ -5,6 +5,7 @@ import { Body } from './Component/Body/Body'
 import {About} from './Component/About/About'
 import {Team} from './Component/Team/Team'
 import {Service} from './Component/Services/Service'
+import {Testimonial} from './Component/Testimonial/Testimonial'
 class App extends React.Component {
 
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <About/>
         <Team/>
         <Service/>
+        <Testimonial/>
       </div>
     );
   }

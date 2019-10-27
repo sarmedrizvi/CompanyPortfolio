@@ -1,0 +1,34 @@
+.testimonial{
+    display: grid;
+    .testimonial-title{
+        text-align: center;
+        font-family: "EB Garamond", serif;
+        padding: 2em 0px    ;
+        .testimonial-slide-show{
+        }
+    }
+}
+.testimonial-slide-show-title{
+    font-family: "EB Garamond", serif;
+    text-align: center;
+}
+.testimonial-slide-show-subtitle{
+    font-family: "Teko", sans-serif;
+    text-align: center;
+    display: block;
+
+}
+.slide{
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+    // align-items: center;
+}
+.slider{
+    border: none;
+    width: 78vw !important;
+    text-align: center !important;
+    box-shadow: #d6d0cb 0px 5px 15px, inset rgb(241, 236, 236) 0px -10px 20px;
+    margin-left: 11vw;
+    margin-bottom: 1.2em;
+}
