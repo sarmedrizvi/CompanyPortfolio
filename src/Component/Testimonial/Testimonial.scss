@@ -32,4 +32,8 @@
     box-shadow: #d6d0cb 0px 5px 15px, inset rgb(241, 236, 236) 0px -10px 20px;
     margin-left: 10vw;
     margin-bottom: 1.2em;
+    // transition: all 3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    &:hover{
+        box-shadow: #ada8a3 0px 5px 15px, inset rgb(212, 202, 202) 0px -10px 20px;
+    }
 }
