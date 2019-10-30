@@ -26,7 +26,7 @@ const ContactForm = () => (
         <label className='label'>Subject</label>
         <input type='text' className='textbox'></input>
         <label className='label'>Message</label>
-        <input type='text' className='textbox message'></input>
+        <textarea className='textbox message' placeholder='Write your note or question here'></textarea>
         <InputButton type='submit'> Send Message</InputButton>
     </div>
 )
