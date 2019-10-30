@@ -12,10 +12,12 @@
     }
 }   
 .contactus{
-    margin: 150px 0px;
+    background: rgba(245, 242, 242, 0.89);
+    margin: 15vw 0px 0px 0px;
+    padding: 0.1vw 0px;
     .contactus-title{
         text-align: center;
-        //font-family: "Teko", sans-serif;
+        // font-family: "Teko", sans-serif;
         font-family: "EB Garamond", serif;
         margin: 90px 0px;
 
@@ -26,5 +28,52 @@
     }
 }
 label{
-    display: block;
+    // display: block;
+}
+.contactform{
+    display: grid;
+    padding: 4vw;
+    background: white !important;
+    margin: 4vw;
+    border-radius: 23px;
+    .contactform-title{
+        font-family: "EB Garamond", serif;
+        text-align: center;
+        
+    }
+    .label{
+        font-family: "Teko", sans-serif;
+        margin: 1.5vw 0.4vw;
+        
+    }
+    .textbox{
+        border-radius: 23px;
+        border: rgb(202, 200, 200) 0.7px solid;
+        height: 6vh;
+       
+    }
+    .message{
+        height: 23vh;
+        margin-bottom: 23px;
+    }
+    [type='submit']{
+        min-width: 22vw;
+        justify-self: center;
+        // display: block;
+        // text-align: center;
+
+    }
+    .shrink{
+        min-width: 50%;
+    }
+    .contactform-two{
+        display: flex;
+        // flex-wrap: wrap;
+
+    }
+    .contactform-two-comp{
+        display: grid;
+        width: 50%;
+        padding: 4px;
+    }
 }
