@@ -1,0 +1,53 @@
+.buttonn{
+    // width: 8vw;
+    padding: 0vw 2vw;
+    height: 7vh;
+    border-radius: 26px;
+    border: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(158, 156, 156, 0);
+    outline: none;
+    margin: 2px 8px ;
+    font-family: "Teko", sans-serif;
+    font-size: 0.9rem;
+    &:hover{
+        background: chocolate;
+        color: white;
+        
+    }
+}
+.portfolio{
+    padding: 0px 4vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    .portfolio-title{
+        font-family: "EB Garamond", serif;
+        text-align: center;
+    }
+    .portfolio-buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .portfolio-image{
+            width: 250px;
+            height: 200px;
+            margin: 2vw 2vw;
+            border-radius: 10px ;
+            transition: all 0.5s ease;
+            cursor: pointer;
+            &:hover{
+                box-shadow: rgb(114, 113, 112) 0px 5px 15px, inset rgb(156, 153, 153) 0px -10px 20px;
+            }
+        }
+    }
+}
+.buttonActive{
+    background: chocolate;
+    color: white;
+}

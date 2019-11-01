@@ -1,0 +1,35 @@
+import React from 'react'
+import './Portfolio.scss'
+import { PortfolioWeb, PortfolioDesktop, PortfolioMobile } from './PortfolioArray'
+let portfolioArray = [];
+export const Buttonn = ({ classs, children, Onchange }) => (
+    <div className='buttonn-div'>
+        <button className={` ${classs} buttonn`} onClick={Onchange}>{children}</button>
+    </div>
+)
+export class Portfolio extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            content: 'web'
+        }
+    }
+    render() {
+        const content = this.state.content
+        content === 'web' ? portfolioArray = PortfolioWeb : content === 'desktop' ? portfolioArray = PortfolioDesktop : portfolioArray = PortfolioMobile
+        return (
+            <div className='portfolio'>
+                <h1 className='portfolio-title'>Portfolio</h1>
+                <div className='portfolio-buttons'>
+                    <Buttonn Onchange={() => this.setState({ content: 'web' })} classs={content === 'web'?'buttonActive':''}>Web</Buttonn>
+                    <Buttonn Onchange={() => this.setState({ content: 'desktop' })} classs={content === 'desktop'?'buttonActive':''}>Desktop</Buttonn>
+                    <Buttonn Onchange={() => this.setState({ content: 'mobile' })} classs={content === 'mobile'?'buttonActive':''}>Mobile</Buttonn>
+                </div>
+                <div className='portfolio-images'>
+                    {portfolioArray.map(img => (<img src={`${img.image}`} className='portfolio-image'></img>))}
+                </div>
+            </div>
+
+        )
+    }
+}

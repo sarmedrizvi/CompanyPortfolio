@@ -34,9 +34,9 @@ export const ContactUs = () => (
     <div className='contactus'>
         <h1 className='contactus-title'>Contact Us</h1>
         <div className='contactus-logos'>
-            <Logo logoClass='map-marker' subtitles='Hello' />
-            <Logo logoClass='phone' subtitles='Hello' />
-            <Logo logoClass='envelope' subtitles='Hello' />
+            <Logo logoClass='map-marker' subtitles='Federal B Area Gulberg Karachi' />
+            <Logo logoClass='phone' subtitles='+923152964742' />
+            <Logo logoClass='envelope' subtitles='softlamp@gmail.com' />
         </div>
         <ContactForm />
     </div>
