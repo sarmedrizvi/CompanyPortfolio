@@ -18,9 +18,9 @@
 }
 .portfolio{
     padding: 0px 4vw;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    // display: grid;
+    // justify-content: center;
+    // align-items: center;
     .portfolio-title{
         font-family: "EB Garamond", serif;
         text-align: center;
@@ -30,13 +30,13 @@
         justify-content: center;
     }
     .portfolio-images{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,16em);
+        justify-content: center;    
 
         .portfolio-image{
             width: 250px;
-            height: 200px;
+            // height: auto;
             margin: 2vw 2vw;
             border-radius: 10px ;
             transition: all 0.5s ease;
