@@ -25,8 +25,9 @@ export class Portfolio extends React.Component {
                     <Buttonn Onchange={() => this.setState({ content: 'desktop' })} classs={content === 'desktop'?'buttonActive':''}>Desktop</Buttonn>
                     <Buttonn Onchange={() => this.setState({ content: 'mobile' })} classs={content === 'mobile'?'buttonActive':''}>Mobile</Buttonn>
                 </div>
+                
                 <div className='portfolio-images'>
-                    {portfolioArray.map(img => (<img src={`${img.image}`} className='portfolio-image'></img>))}
+                    {portfolioArray.map(img => (<div className='img-hover-zoom--blur'><img src={`${img.image}`} className='portfolio-image' data-aos='fade-up'></img></div>))}
                 </div>
             </div>
 

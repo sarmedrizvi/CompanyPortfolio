@@ -10,6 +10,7 @@
     margin: 2px 8px ;
     font-family: "Teko", sans-serif;
     font-size: 0.9rem;
+    min-width: 4vw;
     &:hover{
         background: chocolate;
         color: white;
@@ -32,17 +33,22 @@
     .portfolio-images{
         display: grid;
         grid-template-columns: repeat(auto-fill,16em);
-        justify-content: center;    
-
+        justify-content: center;
+        transition: all 0.5s ease;
+        margin: 2vw 0vw;
         .portfolio-image{
+            overflow: hidden;
             width: 250px;
             // height: auto;
-            margin: 2vw 2vw;
+            // margin: 2vw 2vw;
             border-radius: 10px ;
             transition: all 0.5s ease;
+            // transform: translateX(20px);
             cursor: pointer;
             &:hover{
                 box-shadow: rgb(114, 113, 112) 0px 5px 15px, inset rgb(156, 153, 153) 0px -10px 20px;
+                transition: all 0.5s ease;
+
             }
         }
     }
@@ -51,3 +57,18 @@
     background: chocolate;
     color: white;
 }
+/* Blur-zoom Container */
+.img-hover-zoom--blur{
+    transition: transform 1s, filter 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    filter: blur(1px);
+    transform: scale(1);
+    width: 250px;
+    // overflow: hidden;
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--blur:hover{
+    filter: blur(0);
+    transform: scale(2);
+    z-index: 1;
+  }

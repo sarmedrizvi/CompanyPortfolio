@@ -20,8 +20,9 @@ class App extends React.Component {
         <Team />
         <Service />
         <Testimonial />
-        <ContactUs />
         <Portfolio />
+        <ContactUs />
+        
       </div>
     );
   }

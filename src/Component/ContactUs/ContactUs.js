@@ -4,7 +4,7 @@ import { InputButton } from '../Input-Button/Button'
 const Logo = ({ logoClass, subtitles }) => (
     <div className='logo'>
         <span className={`fa fa-${logoClass} logo1`}></span>
-        <span className='logo-subtitle'>{subtitles}</span>
+        <p className='logo-subtitle'>{subtitles}</p>
     </div>
 )
 
