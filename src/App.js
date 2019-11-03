@@ -9,6 +9,7 @@ import { Testimonial } from './Component/Testimonial/Testimonial'
 import 'aos/dist/aos.css';
 import { ContactUs } from './Component/ContactUs/ContactUs'
 import { Portfolio } from './Component/Portfolio/Portfolio'
+import {Footer} from './Component/Footer/Footer'
 class App extends React.Component {
 
   render() {
@@ -22,7 +23,7 @@ class App extends React.Component {
         <Testimonial />
         <Portfolio />
         <ContactUs />
-        
+        <Footer/>
       </div>
     );
   }
