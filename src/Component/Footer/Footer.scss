@@ -33,13 +33,14 @@
       .footer1-sub-textbox {
         height: 5vh;
         background: transparent;
+        color: white;
         border: 1px rgb(194, 194, 194) solid;
         padding: 5px;
         border-radius: 5px 0px 0px 5px;
         // border: none;
       }
       .button {
-        height: 6.9vh;
+        min-height: 6.9vh;
         border-radius: 0px 25px 25px 0px;
         border: none;
         background: chocolate;
