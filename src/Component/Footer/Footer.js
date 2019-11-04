@@ -31,12 +31,15 @@ const Footer1 = () => (
         
     </div>
 )
+
 export const Footer = () => (
+    
     <div className='footer'>
         <div>
             <Footer1 />
             <hr className='line'></hr>
             <h5 className='copyright'>Copyright ©2019 All rights reserved by Softlamp</h5>
+            
         </div>
     </div>
 )
