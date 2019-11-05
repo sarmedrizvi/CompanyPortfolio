@@ -6,6 +6,18 @@ import img05 from '../../assets/SarmedPortfolio/img-05.png'
 import img06 from '../../assets/SarmedPortfolio/img-06.png'
 import img07 from '../../assets/SarmedPortfolio/img-07.png'
 import img08 from '../../assets/SarmedPortfolio/img-08.png'
+import img1 from '../../assets/KhaismahPortfolio/1.jpeg'
+import img2 from '../../assets/KhaismahPortfolio/2.jpeg'
+import img3 from '../../assets/KhaismahPortfolio/3.jpeg'
+import img4 from '../../assets/KhaismahPortfolio/4.jpeg'
+import img5 from '../../assets/KhaismahPortfolio/5.jpeg'
+import img6 from '../../assets/KhaismahPortfolio/6.jpeg'
+import img7 from '../../assets/KhaismahPortfolio/7.jpeg'
+import img8 from '../../assets/KhaismahPortfolio/8.jpeg'
+import img9 from '../../assets/KhaismahPortfolio/9.jpeg'
+import img10 from '../../assets/KhaismahPortfolio/10.jpeg'
+import img11 from '../../assets/KhaismahPortfolio/11.jpeg'
+import img12 from '../../assets/KhaismahPortfolio/12.jpeg'
 export const PortfolioWeb = [
 
     {
@@ -33,9 +45,60 @@ export const PortfolioWeb = [
     {
         image: `https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.15752-9/74160066_811270339319419_3185378974867914752_n.png?_nc_cat=102&_nc_eui2=AeH6W88IabaUutKNmqxQtozpVpvlQlS8FpXfmUh8k7uHFucgmitEs3PwBwrVtjQ-5XL1MWHB_N-8JXlaYxFEoxAVtKEDzRHCgEehn39wmkjOZg&_nc_oc=AQkjYQR9lQAZNIEqW0OHrpNDlhXzsVSRjPmXQ1T21YIUJ601cqQEOcyc0hnc3xPgSRo&_nc_ht=scontent.fkhi6-1.fna&oh=f84ec6f4ce9b20ffd0775fbf9009ed5e&oe=5E556987`,
         sub: 'Gym website'
-    }
-
-
+    },
+    {
+        image: `${img1}`,
+        sub: 'Gym website'
+    },
+    {
+        image: `${img2}`,
+        
+    },
+    {
+        image: `${img2}`,
+        
+    },
+    {
+        image: `${img3}`,
+        
+    },
+    {
+        image: `${img4}`,
+        
+    },
+    {
+        image: `${img5}`,
+        
+    },
+    {
+        image: `${img6}`,
+        
+    },
+    {
+        image: `${img7}`,
+        
+    },
+    {
+        image: `${img8}`,
+        
+    },
+    {
+        image: `${img9}`,
+        
+    },
+    {
+        image: `${img10}`,
+        
+    },
+    {
+        image: `${img11}`,
+        
+    },
+    {
+        image: `${img12 }`,
+        
+    },
+    
 ]
 
 export const PortfolioMobile = [
