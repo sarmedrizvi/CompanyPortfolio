@@ -1,26 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.201ae362.chunk.css",
-    "main.js": "/static/js/main.928a8933.chunk.js",
-    "main.js.map": "/static/js/main.928a8933.chunk.js.map",
+    "main.css": "/static/css/main.bc19e7a5.chunk.css",
+    "main.js": "/static/js/main.d424909e.chunk.js",
+    "main.js.map": "/static/js/main.d424909e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.14a2f347.js",
     "runtime-main.js.map": "/static/js/runtime-main.14a2f347.js.map",
     "static/css/2.14f06d98.chunk.css": "/static/css/2.14f06d98.chunk.css",
-    "static/js/2.a8685fee.chunk.js": "/static/js/2.a8685fee.chunk.js",
-    "static/js/2.a8685fee.chunk.js.map": "/static/js/2.a8685fee.chunk.js.map",
+    "static/js/2.36ed363f.chunk.js": "/static/js/2.36ed363f.chunk.js",
+    "static/js/2.36ed363f.chunk.js.map": "/static/js/2.36ed363f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0c52ac96a818decbbff33336ecf4e14d.js": "/precache-manifest.0c52ac96a818decbbff33336ecf4e14d.js",
+    "precache-manifest.b0e300708acab82068d43a945123b643.js": "/precache-manifest.b0e300708acab82068d43a945123b643.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.14f06d98.chunk.css.map": "/static/css/2.14f06d98.chunk.css.map",
-    "static/css/main.201ae362.chunk.css.map": "/static/css/main.201ae362.chunk.css.map",
+    "static/css/main.bc19e7a5.chunk.css.map": "/static/css/main.bc19e7a5.chunk.css.map",
+    "static/media/img-01.png": "/static/media/img-01.0f30c5c2.png",
+    "static/media/img-02.png": "/static/media/img-02.949cda6b.png",
+    "static/media/img-03.png": "/static/media/img-03.54b52d46.png",
+    "static/media/img-04.png": "/static/media/img-04.400b5b7a.png",
+    "static/media/img-05.png": "/static/media/img-05.3d15d99f.png",
+    "static/media/img-06.png": "/static/media/img-06.6438b6c1.png",
+    "static/media/img-07.png": "/static/media/img-07.8a790b3f.png",
+    "static/media/img-08.png": "/static/media/img-08.f2326312.png",
     "static/media/Body.scss": "/static/media/main-background.02831682.jpg",
     "static/media/About.scss": "/static/media/softlamp-image.21182131.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.14a2f347.js",
     "static/css/2.14f06d98.chunk.css",
-    "static/js/2.a8685fee.chunk.js",
-    "static/css/main.201ae362.chunk.css",
-    "static/js/main.928a8933.chunk.js"
+    "static/js/2.36ed363f.chunk.js",
+    "static/css/main.bc19e7a5.chunk.css",
+    "static/js/main.d424909e.chunk.js"
   ]
 }
