@@ -27,7 +27,7 @@ export class Portfolio extends React.Component {
                 </div>
                 
                 <div className='portfolio-images'>
-                    {portfolioArray.map(img => (<div className='img-hover-zoom--blur'><img src={`${img.image}`} className='portfolio-image' data-aos='fade-up'></img></div>))}
+                    {portfolioArray.map(img => (<div className='img-hover-zoom--blur image'><img src={`${img.image}`} className='portfolio-image' data-aos='fade-up'></img><span className='sub'>{img.sub}</span></div>))}
                 </div>
             </div>
 

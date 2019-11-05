@@ -17,6 +17,14 @@
         
     }
 }
+.image{
+    display: grid;
+    .sub{
+        text-align: center;
+        font-family: "EB Garamond", serif;
+        font-size: 1.3rem;
+    }
+}
 .portfolio{
     padding: 0px 4vw;
     // display: grid;
@@ -34,6 +42,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill,16em);
         justify-content: center;
+        // height: 230px;
         transition: all 0.5s ease;
         margin: 2vw 0vw;
         .portfolio-image{
@@ -69,6 +78,6 @@
   /* The Transformation */
   .img-hover-zoom--blur:hover{
     filter: blur(0);
-    transform: scale(2);
+    transform: scale(3);
     z-index: 1;
   }
