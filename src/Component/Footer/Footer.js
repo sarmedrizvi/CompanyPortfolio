@@ -1,6 +1,12 @@
 import React from 'react'
 import './Footer.scss'
 
+const raiseInvoiceClicked=()=>(
+    // your axios call here
+    // localStorage.setItem("pageData", "Data Retrieved from axios request")
+    // route to new page by changing window.location
+    window.open("https://gmail.us3.list-manage.com/subscribe/post?u=c8f045533e38a546bd9b77982&amp;id=41ea4d2249", "_blank") //to open new page
+)
 const Footer1 = () => (
     <div className='footer1'>
         <div className='footer1-aboutus'>
@@ -25,7 +31,7 @@ const Footer1 = () => (
             <h5 className='title'>Subscribe Newsletter</h5>
             <div className='footer1-sub-part'>
                 <input type='text' className='footer1-sub-textbox' placeholder='Enter Email'></input>
-                <button className='button'>Send</button>
+                <button className='button' onClick={raiseInvoiceClicked}>Send</button>
             </div>
         </div>
         
