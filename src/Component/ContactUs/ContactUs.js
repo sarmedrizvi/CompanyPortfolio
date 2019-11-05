@@ -31,7 +31,7 @@ const ContactForm = () => (
     </div>
 )
 export const ContactUs = () => (
-    <div className='contactus'>
+    <div className='contactus' id='contactus'>
         <h1 className='contactus-title'>Contact Us</h1>
         <div className='contactus-logos'>
             <Logo logoClass='map-marker' subtitles='Federal B Area Gulberg Karachi' />

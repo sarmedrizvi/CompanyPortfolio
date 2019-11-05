@@ -1,5 +1,5 @@
 .positionSticky {
-  background-color: rgba(255, 253, 253, 0.973);
+  background-color: rgba(255, 253, 253, 0.863);
   border: 0.2px solid rgb(204, 201, 197);
   transition: all 0.3s linear;
   &:hover {
@@ -51,10 +51,15 @@
       font-size: 1.1em;
       // margin: 0px 1.4vw ;
       cursor: pointer;
+
       list-style: none;
       &:hover {
         text-decoration: underline;
         // color: rgb(74, 74, 228);
+      }
+      & a{
+        text-decoration: none !important;
+        color: black;
       }
     }
   }
@@ -73,7 +78,7 @@
 @media screen and (max-width: 550px) {
   .main-points.responsive {
     position: relative;
-    background-color: rgba(252, 250, 250, 0.774);
+    background-color: rgba(252, 250, 250, 0.637);
     color: black;
     display: grid;
     // transition: all 0.3s linear;

@@ -5,7 +5,7 @@ import { TeamArray } from './TeamArray'
 
 export const Team = () => (
 
-    <div className='team'>
+    <div className='team' id='team'>
         <h1 className='team-title'>OUR TEAM</h1>
         <span className='team-quote'>"Talent wins games, but teamwork and intelligence win championships." – Michael Jordan</span>
         <div className='team-profile'>

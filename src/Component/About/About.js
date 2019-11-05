@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 export const About = () => (
 
-    <div className='about'>
+    <div className='about' id='about'>
         <h1 data-aos='fade-up' className='about-title'>About Softlamp</h1>
         <div data-aos='fade-up' className='about-objects'>
             <div data-aos='fade-up' className='objects-image' />

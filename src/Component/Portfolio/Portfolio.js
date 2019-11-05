@@ -18,7 +18,7 @@ export class Portfolio extends React.Component {
         const content = this.state.content
         content === 'web' ? portfolioArray = PortfolioWeb : content === 'desktop' ? portfolioArray = PortfolioDesktop : portfolioArray = PortfolioMobile
         return (
-            <div className='portfolio'>
+            <div className='portfolio' id='portfolio'>
                 <h1 className='portfolio-title'>Portfolio</h1>
                 <div className='portfolio-buttons'>
                     <Buttonn Onchange={() => this.setState({ content: 'web' })} classs={content === 'web'?'buttonActive':''}>Web</Buttonn>

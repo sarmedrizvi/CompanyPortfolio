@@ -24,7 +24,7 @@ export class Testimonial extends React.Component {
 
     render() {
         return (
-            <div className='testimonial' data-aos='fade-up'>
+            <div className='testimonial' data-aos='fade-up' id='testimonial'>
                 <h1 className='testimonial-title'>TESTIMONIAL</h1>
                 <div className='testimonial-slide-show'>
                     <Slider className='slider' autoplay='2000'>

@@ -53,12 +53,12 @@ export class Header extends React.Component {
 
                 <ul className={this.stringCheck()}>
                     <li className='point show'><a>Home</a></li>
-                    <li className='point show'><a>About Us</a></li>
-                    <li className='point show'><a>Portfolio</a></li>
-                    <li className='point show'><a>Services</a></li>
-                    <li className='point show'><a>Testimonials</a></li>
+                    <li className='point show' ><a href='#about'>About Us</a></li>
+                    <li className='point show'><a href='#portfolio'>Portfolio</a></li>
+                    <li className='point show'><a href='#services'>Services</a></li>
+                    <li className='point show'><a href='#testimonial'>Testimonials</a></li>
                     <li className='point show'><a>Blogs</a></li>
-                    <li className='point show'><a>Contact</a></li>
+                    <li className='point show'><a href='#contactus'>Contact</a></li>
                     <li className='point icon show' onClick={this.MenuDown}><a className="fa fa-bars fa-2x">
                     </a></li>
                 </ul>

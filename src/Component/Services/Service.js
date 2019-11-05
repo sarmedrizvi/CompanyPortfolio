@@ -4,7 +4,7 @@ import { ServiceArray } from './ServiceArray'
 import { ServiceCard } from './Service-card/ServiceCard'
 import 'aos/dist/aos.css';
 export const Service = () => (
-    <div className='service' data-aos='fade-up'>
+    <div className='service' data-aos='fade-up' id='services'>
         <h1 className='service-title' data-aos='fade-down'>OUR SERVICES</h1>
         <div className='service-cards'>
         {ServiceArray.map(user => (
