@@ -27,7 +27,7 @@ export class Testimonial extends React.Component {
             <div className='testimonial' data-aos='fade-up' id='testimonial'>
                 <h1 className='testimonial-title'>TESTIMONIAL</h1>
                 <div className='testimonial-slide-show'>
-                    <Slider className='slider' autoplay='2000'>
+                    <Slider className='slider' autoplay='4000'>
 
                         {this.state.images.map((article, index) => <div key={index} className='slide'>
                             <h2 className='testimonial-slide-show-title' data-aos='fade-down' >{article.title}</h2>

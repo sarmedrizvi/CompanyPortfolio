@@ -23,7 +23,7 @@ export class Portfolio extends React.Component {
                 <div className='portfolio-buttons'>
                     <Buttonn Onchange={() => this.setState({ content: 'web' })} classs={content === 'web'?'buttonActive':''}>Web</Buttonn>
                     <Buttonn Onchange={() => this.setState({ content: 'desktop' })} classs={content === 'desktop'?'buttonActive':''}>Desktop</Buttonn>
-                    <Buttonn Onchange={() => this.setState({ content: 'mobile' })} classs={content === 'mobile'?'buttonActive':''}>Mobile</Buttonn>
+                    {/* <Buttonn Onchange={() => this.setState({ content: 'mobile' })} classs={content === 'mobile'?'buttonActive':''}>Mobile</Buttonn> */}
                 </div>
                 
                 <div className='portfolio-images'>
