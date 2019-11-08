@@ -31,7 +31,7 @@ export class TeamCard extends React.Component {
         const { imgUrl, name, work } = this.props;
         return (
             <div className='team-card' data-aos='fade-up' >
-                <div style={{ backgroundImage: `url(https://robohash.org/${imgUrl}?set=set2&size=180x180)` }} onMouseEnter={this.handlehover} onMouseLeave={this.handlehover} alt="pro" className='team-card-image'>
+                <div style={{ backgroundImage: `url(${imgUrl})` }} onMouseEnter={this.handlehover} onMouseLeave={this.handlehover} alt="pro" className='team-card-image'>
 
                     <div className={`${this.state.visible ? 'swap' : 'unswap'} team-card-image-icons`}>
                         <span className='icon fa fa-facebook '></span>
