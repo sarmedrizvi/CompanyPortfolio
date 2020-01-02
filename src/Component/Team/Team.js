@@ -10,7 +10,7 @@ export const Team = () => (
         <span className='team-quote'>"Talent wins games, but teamwork and intelligence win championships." – Michael Jordan</span>
         <div className='team-profile'>
         {TeamArray.map(user => (
-            <TeamCard name={user.name} work={user.work} imgUrl={user.imgUrl} />
+            <TeamCard name={user.name} work={user.work} imgUrl={user.imgUrl} fb={user.fb} insta={user.insta} github={user.github} link={user.link} />
         ))}</div>
     </div>
 )

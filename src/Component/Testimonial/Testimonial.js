@@ -3,11 +3,11 @@ import './Testimonial.scss'
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import { TestimonialArray } from './TestimonialaArray'
-export const CircleButton = () => (
-    <div className='button'>
-        <a className='button-circle fa fa-circle-thin'></a>
-    </div>
-)
+// export const CircleButton = () => (
+//     <div className='button'>
+//         <a className='button-circle fa fa-circle-thin'></a>
+//     </div>
+// )
 
 
 export class Testimonial extends React.Component {

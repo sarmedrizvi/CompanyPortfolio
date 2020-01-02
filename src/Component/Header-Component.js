@@ -8,8 +8,8 @@ export class Header extends React.Component {
         size: 'up',
         scroll:'top'
     }
-    
-   
+
+
     MenuDown = () => {
 
         if (check === false) {
@@ -34,7 +34,7 @@ export class Header extends React.Component {
           this.setState({scroll: 'top'})
         }
       }
-    
+
       componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
       }
@@ -52,15 +52,15 @@ export class Header extends React.Component {
                 <h3 className='main-title'>Softlamp</h3>
 
                 <ul className={this.stringCheck()}>
-                    <li className='point show'><a>Home</a></li>
+                    <li className='point show'><a href='#body'>Home</a></li>
                     <li className='point show' ><a href='#about'>About Us</a></li>
                     <li className='point show'><a href='#portfolio'>Portfolio</a></li>
                     <li className='point show'><a href='#services'>Services</a></li>
                     <li className='point show'><a href='#testimonial'>Testimonials</a></li>
-                    <li className='point show'><a>Blogs</a></li>
+                    {/* <li className='point show'><a href='#'>Blogs</a></li> */}
                     <li className='point show'><a href='#contactus'>Contact</a></li>
-                    <li className='point icon show' onClick={this.MenuDown}><a className="fa fa-bars fa-2x">
-                    </a></li>
+                    <li className='point icon show' onClick={this.MenuDown}><span className="fa fa-bars fa-2x">
+                    </span></li>
                 </ul>
 
             </div>
