@@ -1,6 +1,8 @@
 import React from 'react'
 import './ContactUs.scss'
-import { InputButton } from '../Input-Button/Button'
+
+import { MessageBox } from '../MessageBox/MessageBox'
+
 const Logo = ({ logoClass, subtitles }) => (
     <div className='logo'>
         <span className={`fa fa-${logoClass} logo1`}></span>
@@ -13,6 +15,7 @@ export class ContactUs extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
+            waiting:'Please Wait',
             fName: '',
             lName: '',
             email: '',
@@ -22,6 +25,7 @@ export class ContactUs extends React.Component {
     }
 
     onResponseSubmit = () => {
+        this.setState({waiting:'please wait'})
         fetch('https://infinite-fjord-08892.herokuapp.com/email', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
@@ -35,10 +39,10 @@ export class ContactUs extends React.Component {
         }).then(res => res.json()).then(data => {
             console.log(data)
             if (data === "Thank you for response") {
-                alert('we get your response')
+                this.setState({waiting:'Thank you for the response'})
             }
             else {
-                alert('something is wrong')
+                this.setState({waiting:'something is wrong'})
             }
         })
     }
@@ -70,9 +74,11 @@ export class ContactUs extends React.Component {
                     <input type='text' className='textbox' onChange={(event) => this.setState({ subject: event.target.value })}></input>
                     <label className='label'>Message</label>
                     <textarea className='textbox message' placeholder='Write your note or question here' onChange={(event) => this.setState({ message: event.target.value })}></textarea>
-                    <InputButton type='submit' OnClick={this.onResponseSubmit}> Send Message</InputButton>
+
+                    <MessageBox onContactClick={this.onResponseSubmit} title={'Softlamp'} innerText={this.state.waiting} />
                 </div>
             </div>
         )
     }
+
 }
