@@ -29,9 +29,9 @@ export class Testimonial extends React.Component {
                 <div className='testimonial-slide-show'>
                     <Slider className='slider' autoplay='4000'>
 
-                        {this.state.images.map((article, index) => <div key={index} className='slide'>
-                            <h2 className='testimonial-slide-show-title' data-aos='fade-down' >{article.title}</h2>
-                            <span className='testimonial-slide-show-subtitle' data-aos='fade-down'>{article.subtitle}</span>
+                        {this.state.images.map((article, index) => <div style={{backgroundImage:`url(${article.icon})`,backgroundSize:'cover'}} key={index} className='slide'>
+                            <h2 className='testimonial-slide-show-title'  >{article.title}</h2>
+                            <span className='testimonial-slide-show-subtitle'>{article.subtitle}</span>
                         </div>)}
 
                     </Slider>

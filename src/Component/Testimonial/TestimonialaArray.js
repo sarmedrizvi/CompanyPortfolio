@@ -1,14 +1,16 @@
-export const TestimonialArray=[
+import part2 from '../../assets/Testimonials/1.png'
+
+export const TestimonialArray = [
     {
-        title:'Client',
-        subtitle:'"You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save. Thanks, guys!"'
-
+        title: 'Aleem Khan',
+        subtitle: 'I was a great experience with you,you delivered us the most efficient and relaible product and very cheap price.',
+        icon:`${part2}`
     },
-    // {
-    //     title:'Website Design',
-    //     icon:'http://gexton.com/wp-content/uploads/2018/03/web-design.png',
-    //     subtitle:'Our website design, development, and conversion optimization facilities are focused on…'
-
+    {
+        title: 'Rafay Ahmed',
+        icon: 'https://carollynecorner.com/wp/wp-content/uploads/2019/02/Testimonials-Background.jpg',
+        subtitle: 'One year ago I started my online bussiness but I was unble fo find any ecommerce website with suitable prices then I got to know about SOFTLAMP,they provided me very efficient and cheap product with so much friendly discussion.'
+    }
     // },
     //{
     //     title:'Website Development',
