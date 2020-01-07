@@ -11,7 +11,7 @@
     .logo-subtitle{
         text-align: center;
     }
-}   
+}
 .contactus{
     background: rgba(247, 245, 245, 0.89);
     margin: 15vw 0px 0px 0   px;
@@ -26,7 +26,7 @@
     .contactus-logos{
         display: grid;
         grid-template-columns: repeat(auto-fill,33%);
-        grid-gap: 5px;  
+        grid-gap: 5px;
         justify-content: space-around;
         padding: 0vw 2vw;
     }
@@ -48,13 +48,14 @@ label{
     .label{
         font-family: "Teko", sans-serif;
         margin: 1.5vw 0.4vw;
-        
+
     }
     .textbox{
         border-radius: 23px;
         border: rgb(202, 200, 200) 0.7px solid;
         height: 6vh;
-       
+        padding: 5px;
+
     }
     .message{
         height: 23vh;
