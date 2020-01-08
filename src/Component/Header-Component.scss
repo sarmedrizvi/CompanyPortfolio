@@ -6,7 +6,7 @@
     box-shadow: rgb(235, 228, 222) 0px 5px 15px, inset rgb(252, 252, 252) 0px -10px 20px;
   }
   .point {
-    color: black;
+    color: rgb(107, 45, 4);
   }
 }
 .main-header {
@@ -19,7 +19,7 @@
   width: 100%;
   top: 0;
   z-index: 1;
-  color: rgb(20, 1, 1);
+  color: rgb(107, 45, 4);
   margin: 0px;
   padding: 5px 0px;
   padding-top: 20px;
@@ -59,7 +59,7 @@
       }
       & a{
         text-decoration: none !important;
-        color: black;
+        color: rgb(189, 108, 15);
       }
     }
   }
