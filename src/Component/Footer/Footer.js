@@ -34,18 +34,18 @@ const Footer1 = () => (
                 <button className='button' onClick={raiseInvoiceClicked}>Send</button>
             </div>
         </div>
-        
+
     </div>
 )
 
 export const Footer = () => (
-    
+
     <div className='footer'>
         <div>
             <Footer1 />
             <hr className='line'></hr>
-            <h5 className='copyright'>Copyright ©2019 All rights reserved by Softlamp</h5>
-            
+            <h5 className='copyright'>Copyright ©2020 All rights reserved by Softlamp</h5>
+
         </div>
     </div>
 )

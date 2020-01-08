@@ -3,9 +3,9 @@
   padding: 10vw 2vw;
   padding-bottom: 0px;
   display: grid;
-//   justify-content: center;
-  .line{
-      color: rgb(87, 85, 85);
+  //   justify-content: center;
+  .line {
+    color: rgb(87, 85, 85);
   }
 }
 
@@ -37,7 +37,10 @@
         border: 1px rgb(194, 194, 194) solid;
         padding: 5px;
         border-radius: 5px 0px 0px 5px;
-        // border: none;
+        outline: none !important;
+        &:hover {
+          border-color: white;
+        }
       }
       .button {
         min-height: 6vh;
@@ -59,7 +62,6 @@
     width: 20vw;
     color: rgb(168, 167, 167);
     text-align: center;
-
   }
   .title {
     // display: inline !important;
@@ -75,13 +77,10 @@
     &:hover {
       color: rgb(255, 255, 255);
       cursor: pointer;
-      text-decoration: underline;
     }
   }
 }
-.copyright{
-    color: rgb(168, 167, 167);
-    text-align: center;
-
+.copyright {
+  color: rgb(168, 167, 167);
+  text-align: center;
 }
-
