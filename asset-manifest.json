@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.df055ca8.chunk.css",
-    "main.js": "/static/js/main.41b96293.chunk.js",
-    "main.js.map": "/static/js/main.41b96293.chunk.js.map",
+    "main.css": "/static/css/main.529d9f67.chunk.css",
+    "main.js": "/static/js/main.b9c7e2ed.chunk.js",
+    "main.js.map": "/static/js/main.b9c7e2ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.14a2f347.js",
     "runtime-main.js.map": "/static/js/runtime-main.14a2f347.js.map",
     "static/css/2.0c8fb018.chunk.css": "/static/css/2.0c8fb018.chunk.css",
-    "static/js/2.9a37727d.chunk.js": "/static/js/2.9a37727d.chunk.js",
-    "static/js/2.9a37727d.chunk.js.map": "/static/js/2.9a37727d.chunk.js.map",
+    "static/js/2.0edb1ee8.chunk.js": "/static/js/2.0edb1ee8.chunk.js",
+    "static/js/2.0edb1ee8.chunk.js.map": "/static/js/2.0edb1ee8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.be663404ffd341283a96cbfb62f81f3b.js": "/precache-manifest.be663404ffd341283a96cbfb62f81f3b.js",
+    "precache-manifest.f2bd8944390207b62d9d6464e7c4e666.js": "/precache-manifest.f2bd8944390207b62d9d6464e7c4e666.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0c8fb018.chunk.css.map": "/static/css/2.0c8fb018.chunk.css.map",
-    "static/css/main.df055ca8.chunk.css.map": "/static/css/main.df055ca8.chunk.css.map",
+    "static/css/main.529d9f67.chunk.css.map": "/static/css/main.529d9f67.chunk.css.map",
     "static/media/1.jpeg": "/static/media/1.4a7df89e.jpeg",
     "static/media/1.png": "/static/media/1.f337df69.png",
     "static/media/10.jpeg": "/static/media/10.4ed39dfc.jpeg",
@@ -34,14 +34,16 @@
     "static/media/img-06.png": "/static/media/img-06.6438b6c1.png",
     "static/media/img-07.png": "/static/media/img-07.8a790b3f.png",
     "static/media/img-08.png": "/static/media/img-08.f2326312.png",
-    "static/media/Body.scss": "/static/media/main-background.02831682.jpg",
+    "static/media/main-background.jpg": "/static/media/main-background.02831682.jpg",
+    "static/media/main-background2.jpg": "/static/media/main-background2.b9432d54.jpg",
+    "static/media/main-background3.jpg": "/static/media/main-background3.b245b7f5.jpg",
     "static/media/About.scss": "/static/media/softlamp-image.21182131.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.14a2f347.js",
     "static/css/2.0c8fb018.chunk.css",
-    "static/js/2.9a37727d.chunk.js",
-    "static/css/main.df055ca8.chunk.css",
-    "static/js/main.41b96293.chunk.js"
+    "static/js/2.0edb1ee8.chunk.js",
+    "static/css/main.529d9f67.chunk.css",
+    "static/js/main.b9c7e2ed.chunk.js"
   ]
 }
