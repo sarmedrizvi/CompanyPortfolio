@@ -37,12 +37,18 @@ export const MessageBox = ({ onContactClick, title, innerText }) => {
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    {innerText !== "Thank you for the response" ?
-                        null
-                        :
+                    {innerText === "Thank you for the response" ?
                         <Button onClick={handleClose} color="primary" >
                             OK
                         </Button>
+                        :
+                        innerText === "something is wrong" ?
+                            <Button onClick={handleClose} color="primary" >
+                                DISMISS
+                        </Button>
+                            :
+                            null
+
                     }
                 </DialogActions>
             </Dialog>
